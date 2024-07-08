@@ -32,6 +32,9 @@
     
 
   }
+  .dark3{
+    color: #757575;
+  }
   header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -154,5 +157,53 @@ nav li a{
 }
 .skill-description{
     color: #757575;
+
+}
+/* resume education and experience */
+
+.resume-title{
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.CV-download-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.resume-column{
+    margin-left: 70px;
+}
+
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display:flex;
+    gap:100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], input[type="email"] {
+
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+
+}
+footer textarea{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 20px;
 
 }
