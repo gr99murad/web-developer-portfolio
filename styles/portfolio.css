@@ -32,6 +32,9 @@
     
 
   }
+  .btn-primary:hover{
+    cursor:pointer;
+  }
   .dark3{
     color: #757575;
   }
