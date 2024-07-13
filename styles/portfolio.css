@@ -29,8 +29,14 @@
       font-size: 20px;
       font-weight: 700;
       border: none;
+      
+      
     
 
+  }
+  .btn{
+    display: flex;
+    gap:30px;
   }
   .btn-primary:hover{
     cursor:pointer;
@@ -154,6 +160,7 @@ nav li a{
     /* border-radius: 10px;
     padding:130px 155px; */
     text-align: center;
+    
     /* margin-top: 130px; */
     
 
@@ -209,4 +216,52 @@ footer textarea{
     padding: 10px 30px;
     margin-bottom: 20px;
 
+}
+
+.hide{
+    display: none;
+}
+/* responsive */
+@media screen and (max-width:576px) {
+    .skills-container, .resume-container,footer, .about-items,
+    .banner, nav,nav>ul{
+        flex-direction: column;
+    }
+    nav>ul{
+        gap: 30px;
+    }
+    .nav-title{
+        margin-left:120px ;
+    }
+    .btn{
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+    .btn-primary{
+        margin: 0 100px;
+    }
+   
+    footer, .about{
+        padding: 20px;
+    }
+    header{
+        background-image: none;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"], input[type="email"], footer textarea {
+        width: calc(100% - 40px);
+    }
+   
+
+    
 }
